@@ -1,0 +1,120 @@
+body {
+  background: hsla(145, 83%, 74%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(145, 83%, 74%, 1) 0%,
+    hsla(204, 77%, 76%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(145, 83%, 74%, 1) 0%,
+    hsla(204, 77%, 76%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#87F4B5", endColorstr="#93CBF1", GradientType=1 );
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #175e34;
+  /* margin-top: 80px; */
+}
+
+.work {
+  text-align: center;
+  /* height: 150px; */
+  width: 350px;
+  padding-bottom: 30px;
+  /* From https://css.glass */
+  background: rgba(216, 202, 202, 0.425);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.144);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #175e34;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  margin-top: 60px;
+  padding-top: 10px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  background-color: rgb(65, 182, 166);
+  border-radius: 8px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  margin-right: 10px;
+  transition-duration: 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(56, 134, 124);
+}
+.btnadd,
+.btnsub {
+  width: 40px;
+  font-size: 15px;
+  border-radius: 30px;
+}
+#value {
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  /* margin-left: 110px; */
+  /* margin-right: 110px; */
+  font-size: 70px;
+  border: 5px solid rgba(56, 134, 123, 0.37);
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.DesignName{
+  margin-top: 30px;
+  margin-bottom: 2px;
+}
+.copyRight{
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+.github{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(63, 177, 160, 0.527);
+  border-radius: 7px;
+  color: #175e34;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.gitIcon{
+  font-size: 25px;
+}
+
+.gitTitle{
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.github-a{
+  text-decoration: none;
+}
+
+.copyRightIcon{
+  font-size: 18px;
+  margin-right: 3px;
+}
